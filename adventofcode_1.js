@@ -29,7 +29,7 @@ fs.readFile('/Users/kaima/input.txt', 'utf8', (err, data) => {
   
 
 const fs = require('node:fs');
-fs.readFile('/Users/kaima/input2.txt', 'utf8', (err, data) => {
+fs.readFile('/Users/kaima/git/AdventOfCode/input.txt', 'utf8', (err, data) => {
   if (err) {
     console.error(err);
     return;
